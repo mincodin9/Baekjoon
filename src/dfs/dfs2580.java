@@ -5,15 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Sudoku{
-    dfs2580 T = new dfs2580();
-    int x, y;
-    public Sudoku(int x, int y){
-        this.x=x;
-        this.y=y;
-    }
-}
-
 public class dfs2580 {
     static int[][] board=new int[9][9];
 
@@ -69,7 +60,6 @@ public class dfs2580 {
     }
 
     public static void main(String[] args) throws IOException {
-        dfs2580 T = new dfs2580();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st;
         for(int i=0; i<9; i++){
